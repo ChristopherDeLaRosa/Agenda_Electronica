@@ -1,0 +1,6 @@
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\ML\bin\Debug\ML.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\ML\bin\Debug\ML.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\ML\obj\Debug\ML.csproj.AssemblyReference.cache
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\ML\obj\Debug\ML.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\ML\obj\Debug\ML.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\ML\obj\Debug\ML.pdb

@@ -1,0 +1,11 @@
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.DAL\bin\Debug\Agenda.DAL.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.DAL\bin\Debug\Agenda.DAL.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.DAL\bin\Debug\ML.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.DAL\bin\Debug\System.Data.SqlClient.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.DAL\bin\Debug\ML.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.DAL\bin\Debug\System.Data.SqlClient.xml
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.DAL\obj\Debug\Agenda.DAL.csproj.AssemblyReference.cache
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.DAL\obj\Debug\Agenda.DAL.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.DAL\obj\Debug\Agenda.DAL.csproj.Up2Date
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.DAL\obj\Debug\Agenda.DAL.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.DAL\obj\Debug\Agenda.DAL.pdb

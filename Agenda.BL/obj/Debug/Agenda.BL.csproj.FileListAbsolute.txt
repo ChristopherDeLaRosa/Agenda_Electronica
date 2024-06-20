@@ -1,0 +1,11 @@
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.BL\bin\Debug\Agenda.BL.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.BL\bin\Debug\Agenda.BL.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.BL\bin\Debug\Agenda.DAL.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.BL\bin\Debug\ML.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.BL\bin\Debug\Agenda.DAL.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.BL\bin\Debug\ML.pdb
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.BL\obj\Debug\Agenda.BL.csproj.AssemblyReference.cache
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.BL\obj\Debug\Agenda.BL.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.BL\obj\Debug\Agenda.BL.csproj.Up2Date
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.BL\obj\Debug\Agenda.BL.dll
+C:\Users\chris\Desktop\Proyectos_Csharp\Agenda-Electronica\Agenda.BL\obj\Debug\Agenda.BL.pdb
