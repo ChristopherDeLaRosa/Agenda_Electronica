@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnGuardar = new FontAwesome.Sharp.IconButton();
+            this.btnCancelar = new FontAwesome.Sharp.IconButton();
+            this.txtCorreoElectronico = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtMovil = new System.Windows.Forms.TextBox();
@@ -46,10 +50,6 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtCorreoElectronico = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.btnCancelar = new FontAwesome.Sharp.IconButton();
-            this.btnGuardar = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,6 +81,64 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(925, 799);
             this.panel1.TabIndex = 0;
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnGuardar.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
+            this.btnGuardar.IconColor = System.Drawing.Color.Black;
+            this.btnGuardar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnGuardar.IconSize = 30;
+            this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuardar.Location = new System.Drawing.Point(512, 666);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(123, 50);
+            this.btnGuardar.TabIndex = 23;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCancelar.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
+            this.btnCancelar.IconColor = System.Drawing.Color.Black;
+            this.btnCancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCancelar.IconSize = 30;
+            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCancelar.Location = new System.Drawing.Point(697, 666);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(131, 50);
+            this.btnCancelar.TabIndex = 22;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // txtCorreoElectronico
+            // 
+            this.txtCorreoElectronico.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreoElectronico.Location = new System.Drawing.Point(112, 578);
+            this.txtCorreoElectronico.Name = "txtCorreoElectronico";
+            this.txtCorreoElectronico.Size = new System.Drawing.Size(314, 33);
+            this.txtCorreoElectronico.TabIndex = 21;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Nunito", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(108, 545);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(173, 24);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "Correo Electrónico:";
             // 
             // txtTelefono
             // 
@@ -245,64 +303,6 @@
             this.label1.Size = new System.Drawing.Size(415, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Agregar Nuevo Contacto";
-            // 
-            // txtCorreoElectronico
-            // 
-            this.txtCorreoElectronico.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreoElectronico.Location = new System.Drawing.Point(112, 578);
-            this.txtCorreoElectronico.Name = "txtCorreoElectronico";
-            this.txtCorreoElectronico.Size = new System.Drawing.Size(314, 33);
-            this.txtCorreoElectronico.TabIndex = 21;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Nunito", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(108, 545);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(216, 30);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Correo Electrónico:";
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCancelar.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
-            this.btnCancelar.IconColor = System.Drawing.Color.Black;
-            this.btnCancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnCancelar.IconSize = 30;
-            this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(697, 666);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(131, 50);
-            this.btnCancelar.TabIndex = 22;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnGuardar.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
-            this.btnGuardar.IconColor = System.Drawing.Color.Black;
-            this.btnGuardar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnGuardar.IconSize = 30;
-            this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Location = new System.Drawing.Point(512, 666);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(123, 50);
-            this.btnGuardar.TabIndex = 23;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnGuardar.UseVisualStyleBackColor = false;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // AgregarForm
             // 

@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|c:\\users\\chris\\desktop\\proyectos_csharp\\agenda-electronica\\agenda.ui\\modificarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|solutionrelative:agenda.ui\\modificarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|c:\\users\\chris\\desktop\\proyectos_csharp\\agenda-electronica\\agenda.ui\\modificarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|solutionrelative:agenda.ui\\modificarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|c:\\users\\chris\\desktop\\proyectos_csharp\\agenda-electronica\\agenda.ui\\modificarform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|solutionrelative:agenda.ui\\modificarform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\agenda.ui\\agregarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|solutionrelative:agenda.ui\\agregarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|c:\\users\\chris\\desktop\\proyectos_csharp\\agenda-electronica\\agenda.ui\\agregarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|solutionrelative:agenda.ui\\agregarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\agenda.ui\\agregarform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A789B44A-BEAF-43A9-BFA8-5881D6701379}|Agenda.UI\\Agenda.UI.csproj|solutionrelative:agenda.ui\\agregarform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModificarForm.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\ModificarForm.cs",
+              "RelativeDocumentMoniker": "Agenda.UI\\ModificarForm.cs",
+              "ToolTip": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\ModificarForm.cs",
+              "RelativeToolTip": "Agenda.UI\\ModificarForm.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:20:48.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModificarForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\ModificarForm.Designer.cs",
+              "RelativeDocumentMoniker": "Agenda.UI\\ModificarForm.Designer.cs",
+              "ToolTip": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\ModificarForm.Designer.cs",
+              "RelativeToolTip": "Agenda.UI\\ModificarForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:20:21.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModificarForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\ModificarForm.cs",
+              "RelativeDocumentMoniker": "Agenda.UI\\ModificarForm.cs",
+              "ToolTip": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\ModificarForm.cs [Design]",
+              "RelativeToolTip": "Agenda.UI\\ModificarForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:20:15.663Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AgregarForm.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\AgregarForm.cs",
+              "RelativeDocumentMoniker": "Agenda.UI\\AgregarForm.cs",
+              "ToolTip": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\AgregarForm.cs",
+              "RelativeToolTip": "Agenda.UI\\AgregarForm.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAewBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:11:26.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgregarForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\AgregarForm.Designer.cs",
+              "RelativeDocumentMoniker": "Agenda.UI\\AgregarForm.Designer.cs",
+              "ToolTip": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\AgregarForm.Designer.cs",
+              "RelativeToolTip": "Agenda.UI\\AgregarForm.Designer.cs",
+              "ViewState": "AQIAABMBAAAAAAAAAAASwBwBAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:11:42.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgregarForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\AgregarForm.cs",
+              "RelativeDocumentMoniker": "Agenda.UI\\AgregarForm.cs",
+              "ToolTip": "C:\\Users\\chris\\Desktop\\Proyectos_Csharp\\Agenda-Electronica\\Agenda.UI\\AgregarForm.cs [Design]",
+              "RelativeToolTip": "Agenda.UI\\AgregarForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:11:21.79Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

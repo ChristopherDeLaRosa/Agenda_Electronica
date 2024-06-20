@@ -22,13 +22,16 @@ namespace Agenda.UI
 
         }
 
+        //Evento que se genera cuando se hace clic en Cancelar
         private void btnCancelar_Click(object sender, EventArgs e)
         {
+            //Cierra el formulario
             this.Close();
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
+            //Crea una nueva instancia de Contacto y asigna los valores de los controles del formulario
             Contacto contacto = new Contacto
             {
                 Nombre = txtNombre.Text,
@@ -42,9 +45,12 @@ namespace Agenda.UI
                 CorreoElectronico = txtCorreoElectronico.Text
 
             };
+            //Agrega el contacto a la instancia de ContactoBL 
             contexto.InsertarContacto(contacto);
             this.LimpiarControles();
             MessageBox.Show("Contacto insertado con éxito.");
+
+            //Establece el resultado del dialogo como OK y cierra el formulario
             this.DialogResult = DialogResult.OK;
             this.Close();
 
@@ -64,10 +70,6 @@ namespace Agenda.UI
             txtCorreoElectronico.Clear();
         }
 
-        //public void CargarDatos()
-        //{
-        //    List<Contacto> listaContactos = contactoBL.GetContactos();
-        //    dgvContacto.DataSource = listaContactos;
-        //}
+        
     }
 }

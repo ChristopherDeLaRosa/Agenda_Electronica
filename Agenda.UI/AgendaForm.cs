@@ -14,6 +14,7 @@ namespace Agenda.UI
 {
     public partial class AgendaForm : Form
     {
+        //Instancia de la clase ContactoBL para manejar la logica del negocio de los contactos
         private ContactoBL contactoBL = new ContactoBL();
 
         public AgendaForm()
@@ -22,29 +23,36 @@ namespace Agenda.UI
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        //Muestra los datos en la tabla
+        //Evento que carga y muestra los datos en la tabla (DataGridView)
         private void AgendaForm_Load(object sender, EventArgs e)
         {      
             this.CargarDatos();
 
         }
 
-        //Para eliminar un contacto de la agenda 
+        //Evento ara eliminar un contacto de la agenda 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
+            //Obtiene el Id del contacto seleccionado en la tabla
             int id = Convert.ToInt32(dgvContacto.CurrentRow.Cells["Id"].Value);
+
+            //Llama al metodo EliminarContacto() de ContactoBL para eliminar el contacto seleccionado
             contactoBL.EliminarContacto(id);
+
+            //Muestra el msj de operacion realizada con exito
             MessageBox.Show("Operación realizada con éxito");
             this.CargarDatos();
             
         }
 
+        //Metodo usado para cargar y mostrar los datos en la tabla
         public void CargarDatos()
         {
             List<Contacto> listaContactos = contactoBL.GetContactos();
             dgvContacto.DataSource = listaContactos;
         }
 
+        //Evento que muestra el formulario para agregar un nuevo contacto
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             AgregarForm frm = new AgregarForm();
@@ -53,18 +61,24 @@ namespace Agenda.UI
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
+            //Comprueba si hay una fila seleccionada en la tabla
             if (dgvContacto.SelectedRows.Count > 0)
             {
-                string searchTerm = dgvContacto.SelectedRows[0].Cells["Nombre"].Value.ToString(); // Ajusta el campo según tu necesidad
+                //Obtiene el nombre del contacto seleccionado
+                string searchTerm = dgvContacto.SelectedRows[0].Cells["Nombre"].Value.ToString(); 
+
+                //Busca los contactos que coincidan con el nombre
                 List<Contacto> contactos = contactoBL.BuscarContactos(searchTerm);
 
+                //Si se encuentran contactos con el nombre seleccionado, abre el formulario de modificar
                 if (contactos != null && contactos.Count > 0)
                 {
-                    Contacto contacto = contactos[0]; // Selecciona el primer contacto que coincida con el término de búsqueda
-                    ModificarForm formModificar = new ModificarForm(contacto);
+                    Contacto contacto = contactos[0]; //Toma el primer contacto encontrado
+                    ModificarForm formModificar = new ModificarForm(contacto);//crea el formulario de modificacion
+                    
+                    //Si el formulario de modificacion se cerro con el resultado OK, recarga los datos
                     if (formModificar.ShowDialog() == DialogResult.OK)
                     {
-                        // Refrescar el DataGridView después de modificar
                         btnBuscador_Click(sender, e);
                     }
                 }
@@ -73,20 +87,22 @@ namespace Agenda.UI
                     MessageBox.Show("Contacto no encontrado.");
                 }
             }
+            //Muestra un mensaje en caso de que no se haya seleccionado ningun contacto
             else
             {
                 MessageBox.Show("Seleccione un contacto para modificar.");
             }
         }
-
+        //Evento que se genera cuando se hace clic en el boton Buscar
         private void btnBuscador_Click(object sender, EventArgs e)
         {
-            int id = Convert.ToInt32(dgvContacto.CurrentRow.Cells["Id"].Value);
-
+            //Obtiene el termino de busqueda ingresado por el usuario
             string searchTerm = txtBuscar.Text;
 
+            //Busca los contactos que coincidan con el termino de busqueda
             List<Contacto> contactos = contactoBL.BuscarContactos(searchTerm);
 
+            //Si se encuentran contactos, los muestra en la tabla
             if (contactos != null && contactos.Count > 0)
             {
                 dgvContacto.DataSource = contactos;
@@ -94,9 +110,12 @@ namespace Agenda.UI
             }
             else
             {
+                //muestra un msj si no se encuentran contactos
                 MessageBox.Show("No se encontraron contactos.");
                 dgvContacto.DataSource = null;
             }
         }
+
+
     }
 }

@@ -11,10 +11,7 @@ namespace Agenda.DAL
 {
     public class ContactoDAL
     {
-        //SqlConnection conexion = Database.Instance.Connection;
         string cadena = "Data Source = LAPTOP-LGPSKH9S\\SQLEXPRESS; Initial Catalog = AgendaDB; Integrated Security = True; Trusted_Connection = True; TrustServerCertificate = True;";
-
-
         public void InsertarContacto(Contacto contacto)
         {
             try
